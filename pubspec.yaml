@@ -41,6 +41,10 @@ dependencies:
   dotted_border: ^3.1.0
   image_picker: ^1.2.1
   uuid: ^4.5.2
+  internet_connection_checker_plus:
+  intl:
+  hive: ^4.0.0-dev.2
+  path_provider:
 
 dev_dependencies:
   flutter_test:

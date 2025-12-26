@@ -53,10 +53,12 @@ class BlogRemoteDataSourceImpl implements BlogRemoteDataSource {
           .map(
             (blog) => BlogModel.fromJson(
               blog,
-            ).copyWith(posterName: blog['profiles']['name']),
+            ).copyWith(posterName: blog['profiles']['name']?? "Unknown"),
           )
           .toList();
     } catch (e) {
+      print('getAllBlogs error');
+      print(e.toString());
       throw ServerExeption(e.toString());
     }
   }
