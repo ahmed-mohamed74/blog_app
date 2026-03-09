@@ -45,6 +45,8 @@ dependencies:
   intl:
   hive: ^4.0.0-dev.2
   path_provider:
+  isar:
+  isar_flutter_libs:
 
 dev_dependencies:
   flutter_test:

@@ -19,6 +19,7 @@ class BlogEditor extends StatelessWidget {
         if (value!.isEmpty) {
           return '$hintText is missing!';
         }
+        return null;
       },
     );
   }
